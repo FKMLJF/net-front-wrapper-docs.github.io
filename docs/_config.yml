@@ -4,7 +4,6 @@ remote_theme: carlosperate/jekyll-theme-rtd
 skin: dark
 
 # Theme settings:
-logo: 'https://www.minio-server.procats.hu/procats.hu/drawing.svg'
 site_favicon: 'https://www.minio-server.procats.hu/procats.hu/pcs.ico'
 site_author: "ProCat Solutions Kft."
 repo_url: "https://github.com/FKMLJF/net-front-wrapper"
