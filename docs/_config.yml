@@ -12,6 +12,6 @@ sticky_navigation: true
 prev_next_buttons_location: bottom
 search_enabled: false
 hljs_style: atom-one-dark
-includehidden: true,
+includehidden: true
 collapse_navigation: true
-style_nav_header_background: "#ba0909"
+style_nav_header_background: 'white'
