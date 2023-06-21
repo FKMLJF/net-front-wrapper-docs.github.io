@@ -1,17 +1,17 @@
-title: Net-Front Wrapper
-description: Net-Front Wrapper's Home page.
+title: 'Net-Front Wrapper'
+description: 'Net-Front Wrapper's Home page.'
 remote_theme: carlosperate/jekyll-theme-rtd
 
 # Theme settings:
 site_favicon: 'https://www.minio-server.procats.hu/procats.hu/pcs.ico'
-site_author: "ProCat Solutions Kft."
-repo_url: "https://github.com/FKMLJF/net-front-wrapper"
-edit_on_github: false
+site_author: 'ProCat Solutions Kft.'
+repo_url: 'https://github.com/FKMLJF/net-front-wrapper'
+edit_on_github: true
 github_docs_folder: true
 sticky_navigation: true
 prev_next_buttons_location: bottom
 search_enabled: false
-hljs_style: atom-one-dark
+hljs_style: 'atom-one-dark'
 includehidden: true
 collapse_navigation: true
 style_nav_header_background: 'white'
