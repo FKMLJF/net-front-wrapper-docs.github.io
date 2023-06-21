@@ -8,13 +8,13 @@ nav_exclude: true
 
 
 
-
-{% highlight javascript %}
+```
 function sayHello(name) {
   if (!name) {
     console.log('Hello World');
   } else {
     console.log(`Hello ${name}`);
-  }  
-}  
-{% endhighlight %}
+  }
+}
+
+```
