@@ -3,6 +3,8 @@ description: Net-Front Wrapper's Home page.
 remote_theme: carlosperate/jekyll-theme-rtd
 
 # Theme settings:
+logo: 'https://www.minio-server.procats.hu/procats.hu/logo_1_2cd528acb7.svg'
+site_favicon: 'https://procats.hu/assets/img/favicon-32x32.png'
 site_author: "ProCat Solutions Kft."
 repo_url: "https://github.com/FKMLJF/net-front-wrapper"
 edit_on_github: false
