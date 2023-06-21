@@ -13,3 +13,7 @@
 .wy-nav-content-wrap {
     background: #4a4a4a;
 }
+
+.wy-nav-content {
+    max-width: 100%;
+}
