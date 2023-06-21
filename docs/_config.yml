@@ -12,4 +12,4 @@ github_docs_folder: true
 sticky_navigation: true
 prev_next_buttons_location: bottom
 search_enabled: false
-hljs_style: github-gist
+hljs_style: atom-one-dark
