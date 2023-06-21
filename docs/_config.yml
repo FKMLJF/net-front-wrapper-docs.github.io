@@ -1,6 +1,6 @@
 title: Net-Front Wrapper
 description: Net-Front Wrapper's Home page.
-remote_theme: minima
+remote_theme: carlosperate/jekyll-theme-rtd
 skin: dark
 
 # Theme settings:
