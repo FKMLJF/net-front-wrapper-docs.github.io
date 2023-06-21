@@ -8,7 +8,7 @@ nav_exclude: true
 
 
 
-```
+```javascript
 function sayHello(name) {
   if (!name) {
     console.log('Hello World');
