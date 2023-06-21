@@ -1,3 +1,5 @@
+@import 'theme.css'; 
+
 .wy-nav-top {
     display: none;
     background: ##ff0000;
