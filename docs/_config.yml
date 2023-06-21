@@ -1,7 +1,6 @@
 title: Net-Front Wrapper
 description: Net-Front Wrapper's Home page.
-remote_theme: rundocs/jekyll-rtd-theme@v1
-skin: dark
+remote_theme: carlosperate/jekyll-theme-rtd
 
 # Theme settings:
 site_favicon: 'https://www.minio-server.procats.hu/procats.hu/pcs.ico'
