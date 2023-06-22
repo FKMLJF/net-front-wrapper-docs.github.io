@@ -153,6 +153,47 @@ Response will look like this:
 }
 ```
 
+<h3>Get Printer Settings</h3>
+To get the settings of the connected printer:
+
+* In your website, call `getPrinterSettings()` function from the [SDK](#communication-setup)
+
+Response will look like this:
+```json
+{
+    "functionName": "GET_PRINTER_SETTINGS",
+    "result": {
+      "width": "576",
+      "leftPadding": "0"
+    },
+    "isSuccess": true
+}
+```
+
+<h3>Set Printer Settings</h3>
+After successfully connected to a device, set it's setting on the printing:
+
+* In your website, call `setPrinterSettings()` function from the [SDK](#communication-setup) with a <b>PrintingSettingsDto</b> type param:
+
+PrintingSettingsDto:
+
+| name:       |  value:  |
+|:------------|:--------:|
+| width       | `string` |
+| leftPadding | `string` |
+
+Response will look like this:
+```json
+{
+    "functionName": "SET_PRINTER_SETTINGS",
+    "result": {
+      "width": "576",
+      "leftPadding": "0"
+    },
+    "isSuccess": true
+}
+```
+
 <h3>Print image</h3>
 After successfully connected to a device, to print an image:
 
@@ -176,6 +217,22 @@ Response will look like this:
         "value": "MP80",
         "label": "DC:0D:30:95:35:33"
       }
+    },
+    "isSuccess": true
+}
+```
+
+<h3>Scanning QR Code or Barcode</h3>
+To start the scan of QR code or barcode using the wrapper application (Note: only receive response after QR or barcode found):
+
+* In your website, call `barcodeReadingStart()` function from the [SDK](#communication-setup)
+
+On successfully reading response will look like this:
+```json
+{
+    "functionName": "BARCODE_READING_START",
+    "result": {
+      "data": "barcodeDataInString"
     },
     "isSuccess": true
 }
