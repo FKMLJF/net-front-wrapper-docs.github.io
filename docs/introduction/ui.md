@@ -64,5 +64,20 @@ document.addEventListener(‘message', (message) => {
 }
 ```
 
-[source](https://github.com/FKMLJF/net-front-wrapper/blob/00cc204d64411d51e577cb007f42bd112b0bf479/netFrontWrapper/sdk/nfw-sdk.js)
+## HIDE HEADER feature (**Recommended**)
 
+```javascript
+setPrinter(headerHide());
+// path netFrontWrapper/sdk/nfw-sdk.js
+```
+```json
+{
+  "functionName": "HEADER_SHOW",
+  "result": {
+    "isHeaderShow": false
+  },
+  "isSuccess": true
+}
+```
+
+[![Screenshot 2023-06-22 at 15 54 17](https://github.com/FKMLJF/net-front-wrapper-docs.github.io/assets/24462886/823015d0-1a3f-458b-aefe-e17c6254a62d)](https://github.com/FKMLJF/net-front-wrapper/blob/00cc204d64411d51e577cb007f42bd112b0bf479/netFrontWrapper/sdk/nfw-sdk.js)
