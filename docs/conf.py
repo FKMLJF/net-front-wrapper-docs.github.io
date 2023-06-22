@@ -1,4 +1,6 @@
 ## conf.py
+def setup(app):
+   app.add_css_file("css/style.css")
 
 # These folders are copied to the documentation's HTML output
 html_static_path = ['_static']
