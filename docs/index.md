@@ -62,3 +62,8 @@ For any inquiries or technical support, please contact:
 Website: **https://procats.hu**
 
 Email: **hello@procats.hu**
+
+![unnamed](https://img.shields.io/badge/Version-0.0.0.2-red)
+![unnamed](https://img.shields.io/badge/0.71-React%20Native-69b6e4?logo=react)
+![unnamed](https://img.shields.io/badge/7.6-Gradle-21d326?logo=gradle)
+![unnamed](https://img.shields.io/badge/4.8.4-typescript-blue?logo=typescript)
