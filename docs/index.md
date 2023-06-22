@@ -7,6 +7,10 @@ nav_exclude: true
 # Read The Docs Net-Front Wrapper
 ![unnamed](https://github.com/FKMLJF/net-front-wrapper-docs.github.io/assets/24462886/c4a09f97-4fe9-447e-befc-044c2d17c587)
 
+![unnamed](https://img.shields.io/badge/Version-0.0.0.2-red)
+![unnamed](https://img.shields.io/badge/RN-0.71.10-green)
+![unnamed](https://img.shields.io/badge/gradle-7.6-blue)
+
 ## Features
 ![Screenshot 2023-06-22 at 17 06 53](https://github.com/FKMLJF/net-front-wrapper-docs.github.io/assets/24462886/cee8c00d-c7fe-4e0d-9f9f-725ed2616137)
 
