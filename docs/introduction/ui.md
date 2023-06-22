@@ -27,5 +27,31 @@ This is an overview of all Android versions support
 ##  Set Frontend url
 ![Screenshot_20230622_145405_eVsr](https://github.com/FKMLJF/net-front-wrapper-docs.github.io/assets/24462886/a37741da-f2d9-4700-8483-934d5e07ed8b)
 ![Screenshot_20230622_145454_eVsr](https://github.com/FKMLJF/net-front-wrapper-docs.github.io/assets/24462886/3c388293-4c77-495e-9634-d0f506845b0c)
-> use a secure website, use ssl
+> use a secure website, use ssl!
+
+##  SET printer with BL auto scanner
+![Screenshot_20230622_145547_eVsr](https://github.com/FKMLJF/net-front-wrapper-docs.github.io/assets/24462886/98b91bfa-c502-4ed3-8df3-03537de06afc)
+![Screenshot_20230622_145555_eVsr](https://github.com/FKMLJF/net-front-wrapper-docs.github.io/assets/24462886/abf51ba0-1e26-4dc6-b32f-71b3584b84a5)
+
+#### You can use programically (**Recommended**)
+```javascript
+setPrinter({
+  label: "MP80",
+  value: "DC:0D:30:95:35:33"
+});
+// path netFrontWrapper/sdk/nfw-sdk.js
+```
+
+Receive
+```javascript
+document.addEventListener(‘message', (message) => { 
+// console.log(message?.data);
+/* 
+ 
+ 
+ */
+},false);
+```
+
+https://github.com/FKMLJF/net-front-wrapper/blob/00cc204d64411d51e577cb007f42bd112b0bf479/netFrontWrapper/sdk/nfw-sdk.js
 
