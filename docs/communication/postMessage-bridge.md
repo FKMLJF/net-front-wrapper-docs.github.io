@@ -207,18 +207,42 @@ PrintImageDto:
 | imageWidth  | `number` | `false`  |
 | leftPadding | `number` | `false`  |
 
-Response will look like this:
+Response will look like this **POLPOS PRINTER**:
 ```json
 {
-    "functionName": "PRINT_IMAGE",
-    "result": {
-      "stored" :true,
-      "message": {
-        "value": "MP80",
-        "label": "DC:0D:30:95:35:33"
+  "functionName": "PRINT_IMAGE",
+  "result": {
+    "printingTime": "UNKNOWN",
+    "printingStart": true,
+    "message": [
+      {
+        "code": "12"
+      },
+      {
+        "code": "12"
+      },
+      {
+        "code": "12"
+      },
+      {
+        "code": "12"
       }
-    },
-    "isSuccess": true
+    ]
+  },
+  "isSuccess": true
+}
+```
+
+Response will look like this **DATECS PRINTER**:
+```json
+{
+  "functionName": "PRINT_IMAGE",
+  "result": {
+    "printingTime": "19287 ms",
+    "printed": true,
+    "message": ""
+  },
+  "isSuccess": true
 }
 ```
 
