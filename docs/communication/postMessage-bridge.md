@@ -210,7 +210,7 @@ PrintImageDto:
 Response will look like this:
 ```json
 {
-    "functionName": "SET_PRINTER",
+    "functionName": "PRINT_IMAGE",
     "result": {
       "stored" :true,
       "message": {
@@ -233,6 +233,54 @@ On successfully reading response will look like this:
     "functionName": "BARCODE_READING_START",
     "result": {
       "data": "barcodeDataInString"
+    },
+    "isSuccess": true
+}
+```
+
+<h3>Cache clearing</h3>
+To clear the cache of the App's webview:
+
+* In your website, call `webviewClearCache()` function from the [SDK](#communication-setup)
+
+Response will look like this:
+```json
+{
+    "functionName": "WEBVIEW_CLEAR_CACHE",
+    "result": {
+      "message": "cache and history cleared!"
+    },
+    "isSuccess": true
+}
+```
+
+<h3>Hiding header in the App</h3>
+To hide the top header of the app:
+
+* In your website, call `headerHide()` function from the [SDK](#communication-setup)
+
+Response will look like this:
+```json
+{
+    "functionName": "HEADER_HIDE",
+    "result": {
+      "isHeaderShow": false
+    },
+    "isSuccess": true
+}
+```
+
+<h3>Hiding header in the App</h3>
+To hide the top header of the app:
+
+* In your website, call `headerShow()` function from the [SDK](#communication-setup)
+
+Response will look like this:
+```json
+{
+    "functionName": "HEADER_SHOW",
+    "result": {
+      "isHeaderShow": true
     },
     "isSuccess": true
 }
