@@ -20,14 +20,17 @@ nav_order: 1
 
 ## Installation
 #### (read prerequires site)
+
 Install the dependencies and devDependencies and start.
 
 ```sh
+
 git clone https://github.com/FKMLJF/net-front-wrapper.git
 cd netFrontWrapper
 npm install
 npm run build:android
 npm run start:android
+
 ```
 
 ## Plugins
