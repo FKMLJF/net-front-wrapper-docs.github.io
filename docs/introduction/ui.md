@@ -42,15 +42,15 @@ setPrinter({
 // path netFrontWrapper/sdk/nfw-sdk.js
 ```
 
-Receive
+Response receive
 ```javascript
 document.addEventListener(‘message', (message) => { 
 // console.log(message?.data);
-/* 
- 
- 
- */
 },false);
+```
+
+```json
+{}
 ```
 
 https://github.com/FKMLJF/net-front-wrapper/blob/00cc204d64411d51e577cb007f42bd112b0bf479/netFrontWrapper/sdk/nfw-sdk.js
