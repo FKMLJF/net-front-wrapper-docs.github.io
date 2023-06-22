@@ -48,7 +48,7 @@ Instructions on how to use them in your own application are linked below.
 | Plugin | SOURCE |
 | ------ | ------ | 
 | DATECS | ../main/java/com/netfrontwrapper/DatecsDPP350SDKModule.java |
-| POLPOS | https://github.com/FKMLJF/tp-react-native-bluetooth-printer-for-polpos-mp80.git |
+| POLPOS | [tp-react-native-bluetooth-printer-for-polpos-mp80](https://github.com/FKMLJF/tp-react-native-bluetooth-printer-for-polpos-mp80.git) |
 
 Support and Contact Information ![shape4](https://github.com/FKMLJF/net-front-wrapper-docs.github.io/assets/24462886/e214579c-90c7-4f1e-92de-1a1b70ce18bc)
 
