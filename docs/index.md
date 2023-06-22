@@ -4,6 +4,7 @@ title: Index
 nav_exclude: true
 ---
 
+
 # Read The Docs Net-Front Wrapper
 ![unnamed](https://github.com/FKMLJF/net-front-wrapper-docs.github.io/assets/24462886/c4a09f97-4fe9-447e-befc-044c2d17c587)
 
@@ -43,16 +44,16 @@ Instructions on how to use them in your own application are linked below.
 | ------ | ------ | ------ |
 | DATECS | https://www.datecs.bg/en/documents | netFrontWrapper/android/app/lib/com.datecs.api.jar |
 | POLPOS | http://altcashoffice.hu/letoltes/POLPOS_MP80_SDK/ | netFrontWrapper/android/app/lib/printer_polpos_library.jar |
-| PdfiumAndroid | https://github.com/barteksc/PdfiumAndroid/blob/master/README.md | [netFrontWrapper/android/app/lib/printer_polpos_library.jar](https://github.com/barteksc/PdfiumAndroid/tree/master) |
-| zxing | [http://altcashoffice.hu/letoltes/POLPOS_MP80_SDK/](https://github.com/zxing/zxing#readme) | [netFrontWrapper/android/app/lib/printer_polpos_library.jar](https://github.com/zxing/zxing) |
+| PdfiumAndroid | https://github.com/barteksc/PdfiumAndroid/blob/master/README.md | [printer_polpos_library.jar](https://github.com/barteksc/PdfiumAndroid/tree/master) |
+| zxing | [http://altcashoffice.hu/letoltes/POLPOS_MP80_SDK/](https://github.com/zxing/zxing#readme) | [zxing](https://github.com/zxing/zxing) |
 | React Native | https://reactnative.dev/ | https://reactnative.dev/ |
 
 ## Tranformation for better process
 
 | Plugin | SOURCE |
 | ------ | ------ | 
-| DATECS | netFrontWrapper/android/app/src/main/java/com/netfrontwrapper/DatecsDPP350SDKModule.java |
-| POLPOS | https://github.com/FKMLJF/tp-react-native-bluetooth-printer-for-polpos-mp80.git |
+| DATECS | ../main/java/com/netfrontwrapper/DatecsDPP350SDKModule.java |
+| POLPOS | [tp-react-native-bluetooth-printer-for-polpos-mp80](https://github.com/FKMLJF/tp-react-native-bluetooth-printer-for-polpos-mp80.git) |
 
 Support and Contact Information ![shape4](https://github.com/FKMLJF/net-front-wrapper-docs.github.io/assets/24462886/e214579c-90c7-4f1e-92de-1a1b70ce18bc)
 
@@ -67,3 +68,4 @@ Email: **hello@procats.hu**
 ![unnamed](https://img.shields.io/badge/0.71-React%20Native-69b6e4?logo=react)
 ![unnamed](https://img.shields.io/badge/7.6-Gradle-21d326?logo=gradle)
 ![unnamed](https://img.shields.io/badge/4.8.4-typescript-blue?logo=typescript)
+
