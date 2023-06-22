@@ -229,9 +229,10 @@ Response will look like this **POLPOS PRINTER**:
       }
     ]
   },
-  "isSuccess": true
+  "isSuccess": false
 }
 ```
+* Is success false because the print status is unknown, it is the operator's responsibility to check it.
 
 Response will look like this **DATECS PRINTER**:
 ```json
@@ -245,6 +246,7 @@ Response will look like this **DATECS PRINTER**:
   "isSuccess": true
 }
 ```
+* The printer does not print when the red LED lights up
 
 <h3>Scanning QR Code or Barcode</h3>
 To start the scan of QR code or barcode using the wrapper application (Note: only receive response after QR or barcode found):
