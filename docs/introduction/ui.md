@@ -70,9 +70,10 @@ document.addEventListener(‘message', (message) => {
 setPrinter(headerHide());
 // path netFrontWrapper/sdk/nfw-sdk.js
 ```
+
 ```json
 {
-  "functionName": "HEADER_SHOW",
+  "functionName": "HEADER_HIDE",
   "result": {
     "isHeaderShow": false
   },
