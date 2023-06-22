@@ -7,6 +7,10 @@ nav_order: 1
 # Read The Docs Net-Front Wrapper
 ![unnamed](https://github.com/FKMLJF/net-front-wrapper-docs.github.io/assets/24462886/c4a09f97-4fe9-447e-befc-044c2d17c587)
 
+![unnamed](https://img.shields.io/badge/Version-0.0.0.2-red)
+![unnamed](https://img.shields.io/badge/0.71-React%20Native-69b6e4?logo=react)
+![unnamed](https://img.shields.io/badge/7.6-Gradle-21d326?logo=gradle)
+![unnamed](https://img.shields.io/badge/4.8.4-typescript-blue?logo=typescript)
 ## Features
 ![Screenshot 2023-06-22 at 17 06 53](https://github.com/FKMLJF/net-front-wrapper-docs.github.io/assets/24462886/cee8c00d-c7fe-4e0d-9f9f-725ed2616137)
 
@@ -19,18 +23,15 @@ nav_order: 1
 - Polpos custom SDK for image printing and get status observable
 
 ## Installation
-#### read prerequires site 
-
+#### (read prerequires site)
 Install the dependencies and devDependencies and start.
 
 ```sh
-
 git clone https://github.com/FKMLJF/net-front-wrapper.git
 cd netFrontWrapper
 npm install
 npm run build:android
 npm run start:android
-
 ```
 
 ## Plugins
@@ -61,3 +62,8 @@ For any inquiries or technical support, please contact:
 Website: **https://procats.hu**
 
 Email: **hello@procats.hu**
+
+![unnamed](https://img.shields.io/badge/Version-0.0.0.2-red)
+![unnamed](https://img.shields.io/badge/0.71-React%20Native-69b6e4?logo=react)
+![unnamed](https://img.shields.io/badge/7.6-Gradle-21d326?logo=gradle)
+![unnamed](https://img.shields.io/badge/4.8.4-typescript-blue?logo=typescript)
