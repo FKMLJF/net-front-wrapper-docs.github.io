@@ -4,61 +4,15 @@ title: Communication with wrapper
 nav_order: 1
 ---
 
-Net-Front Wrapper App Communication Documentation
-=
-
-Introduction
--
-This part of the documentation explains how to establish communication between the website and the wrapper using a postMessage bridge.
-
-Communication Setup
--
-
-<h3>Calling a function</h3>
-
-
-In your website, call the functions which you want ot use using the <b>SDK</b> located in [/sdk/nfw-sdk.js](https://github.com/FKMLJF/net-front-wrapper/blob/main/netFrontWrapper/sdk/nfw-sdk.js)
-
-<h3>Getting Response from Wrapper</h3>
-
-In your website, listen for messages from the wrapper application using the following code:
-```javascript
-document.addEventListener('message', (message) => {
-    //console.log(JSON.stringify(message?.data));
-    //Handle the received message from the wrapper application
-}, false);
-```
-
-For any call the wrapper will send success response in this DTO format:
-```json
-{
-    functionName: 'FUNCTION_NAME',
-    result: 
-        {
-          Object differs according to the given function
-        },
-    isSuccess: true;
-}
-```
-For error response is this DTO format:
-```json
-{
-    functionName: ”FUNCTION_NAME”,
-    result: 
-        {
-          Object differs according to the given function
-        },
-    isSuccess: false,
-}
-```
 
 Available Functions
--
+=
 
-<h3>Checking if Bluetooth enabled</h3>
+Checking if Bluetooth enabled
+-
 To retrieve information about the phone's bluetooth state using the wrapper application:
 
-* In your website, call `bluetoothIsEnabled()` function from the [SDK](#communication-setup)
+* In your website, call `bluetoothIsEnabled()` function from the [SDK](setup.md#calling-a-function)
 
 Response will look like this:
 ```json
@@ -72,10 +26,11 @@ Response will look like this:
 }
 ```
 
-<h3>Getting Available Bluetooth Devices</h3>
+Getting Available Bluetooth Devices
+-
 To retrieve a list of available Bluetooth devices using the wrapper application:
 
-* In your website, call `allAvailableBlueToothDevice()` function from the [SDK](#communication-setup)
+* In your website, call `allAvailableBlueToothDevice()` function from the [SDK](setup.md#calling-a-function)
 
 Response will look like this:
 ```json
@@ -109,10 +64,11 @@ Response will look like this:
 }
 ```
 
-<h3>Getting Connected Printer Info</h3>
+Getting Connected Printer Info
+-
 To retrieve information about the connected (paired, not live connect!) printer using the wrapper application:
 
-* In your website, call `getConnectedDevice()` function from the [SDK](#communication-setup)
+* In your website, call `getConnectedDevice()` function from the [SDK](setup.md#calling-a-function)
 
 Response will look like this:
 ```json
@@ -126,11 +82,12 @@ Response will look like this:
 }
 ```
 
-<h3>Connect to a Printer</h3>
+Connect to a Printer
+-
 To make a connection with a device which can be used for printing later:
 
-* In your website, call `setPrinter()` function from the [SDK](#communication-setup) with a <b>PrinterDto</b> type param:
-  
+* In your website, call `setPrinter()` function from the [SDK](setup.md#calling-a-function) with a <b>PrinterDto</b> type param:
+
 PrinterDTO:
 
 | name: |  value:  | 
@@ -153,10 +110,11 @@ Response will look like this:
 }
 ```
 
-<h3>Get Printer Settings</h3>
+Get Printer Settings
+-
 To get the settings of the connected printer:
 
-* In your website, call `getPrinterSettings()` function from the [SDK](#communication-setup)
+* In your website, call `getPrinterSettings()` function from the [SDK](setup.md#calling-a-function)
 
 Response will look like this:
 ```json
@@ -170,10 +128,11 @@ Response will look like this:
 }
 ```
 
-<h3>Set Printer Settings</h3>
+Set Printer Settings<
+-
 After successfully connected to a device, set it's setting on the printing:
 
-* In your website, call `setPrinterSettings()` function from the [SDK](#communication-setup) with a <b>PrintingSettingsDto</b> type param:
+* In your website, call `setPrinterSettings()` function from the [SDK](setup.md#calling-a-function) with a <b>PrintingSettingsDto</b> type param:
 
 PrintingSettingsDto:
 
@@ -194,10 +153,11 @@ Response will look like this:
 }
 ```
 
-<h3>Print image</h3>
+Print image
+-
 After successfully connected to a device, to print an image:
 
-* In your website, call `printImage()` function from the [SDK](#communication-setup) with a <b>PrintImageDto</b> type param:
+* In your website, call `printImage()` function from the [SDK](setup.md#calling-a-function) with a <b>PrintImageDto</b> type param:
 
 PrintImageDto:
 
@@ -248,10 +208,11 @@ Response will look like this **DATECS PRINTER**:
 ```
 * The printer does not print when the red LED lights up
 
-<h3>Scanning QR Code or Barcode</h3>
+Scanning QR Code or Barcode<
+-
 To start the scan of QR code or barcode using the wrapper application (Note: only receive response after QR or barcode found):
 
-* In your website, call `barcodeReadingStart()` function from the [SDK](#communication-setup)
+* In your website, call `barcodeReadingStart()` function from the [SDK](setup.md#calling-a-function)
 
 On successfully reading response will look like this:
 ```json
@@ -264,10 +225,11 @@ On successfully reading response will look like this:
 }
 ```
 
-<h3>Cache clearing</h3>
+Cache clearing
+-
 To clear the cache of the App's webview:
 
-* In your website, call `webviewClearCache()` function from the [SDK](#communication-setup)
+* In your website, call `webviewClearCache()` function from the [SDK](setup.md#calling-a-function)
 
 Response will look like this:
 ```json
@@ -280,10 +242,11 @@ Response will look like this:
 }
 ```
 
-<h3>Hiding header in the App</h3>
+Hiding header in the App
+-
 To hide the top header of the app:
 
-* In your website, call `headerHide()` function from the [SDK](#communication-setup)
+* In your website, call `headerHide()` function from the [SDK](setup.md#calling-a-function)
 
 Response will look like this:
 ```json
@@ -296,10 +259,11 @@ Response will look like this:
 }
 ```
 
-<h3>Hiding header in the App</h3>
+Hiding header in the App
+-
 To hide the top header of the app:
 
-* In your website, call `headerShow()` function from the [SDK](#communication-setup)
+* In your website, call `headerShow()` function from the [SDK](setup.md#calling-a-function)
 
 Response will look like this:
 ```json
