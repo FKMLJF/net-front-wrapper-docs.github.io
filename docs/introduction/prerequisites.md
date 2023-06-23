@@ -17,7 +17,7 @@ Repositories used
 * Forked library for Polpos printers<br>
 [![unnamed](https://img.shields.io/badge/0.71-Bluetooth%20Printer%20Polpos-69b6e4?logo=react)](https://github.com/FKMLJF/tp-react-native-bluetooth-printer-for-polpos-mp80)
 
-Getting started
+Setting up the development environment
 -
 For React Native Android see [official documentation](https://reactnative.dev/docs/environment-setup) or follow these steps
 * install [Node](https://nodejs.org/en) recommended to use an LTS version<br>
