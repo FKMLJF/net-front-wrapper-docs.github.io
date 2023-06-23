@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Communication with wrapper
-nav_order: 1
+nav_order: 3
 ---
 
 
@@ -128,7 +128,7 @@ Response will look like this:
 }
 ```
 
-Set Printer Settings<
+Set Printer Settings
 -
 After successfully connected to a device, set it's setting on the printing:
 
@@ -208,7 +208,7 @@ Response will look like this **DATECS PRINTER**:
 ```
 * The printer does not print when the red LED lights up
 
-Scanning QR Code or Barcode<
+Scanning QR Code or Barcode
 -
 To start the scan of QR code or barcode using the wrapper application (Note: only receive response after QR or barcode found):
 
