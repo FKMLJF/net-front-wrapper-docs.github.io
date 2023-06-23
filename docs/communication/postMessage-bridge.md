@@ -32,7 +32,7 @@ To retrieve a list of available Bluetooth devices using the wrapper application:
 
 * In your website, call `allAvailableBlueToothDevice()` function from the [SDK](setup.md#calling-a-function)
 
-Response will look like this:
+Successful response will look like this:
 ```json
 {
     "functionName": "ALL_AVAILABLE_BLUETOOTH_DEVICE",
@@ -64,13 +64,25 @@ Response will look like this:
 }
 ```
 
+Response if Bluetooth turned off:
+```json
+{
+    "functionName": "ALL_AVAILABLE_BLUETOOTH_DEVICE",
+    "result": {
+      "message": "NOT_STARTED",
+      "executionTime": "5 ms"
+    },
+    "isSuccess": false
+}
+```
+
 Getting Connected Printer Info
 -
 To retrieve information about the connected (paired, not live connect!) printer using the wrapper application:
 
 * In your website, call `getConnectedDevice()` function from the [SDK](setup.md#calling-a-function)
 
-Response will look like this:
+Successful response will look like this:
 ```json
 {
     "functionName": "GET_CONNECTED_DEVICE_INFO",
@@ -82,9 +94,23 @@ Response will look like this:
 }
 ```
 
-Connect to a Printer
+Response if Bluetooth turned off:
+```json
+{
+    "functionName": "GET_CONNECTED_DEVICE_INFO",
+    "result": {
+      "message": "NOT_STARTED",
+      "executionTime": "5 ms"
+    },
+    "isSuccess": false
+}
+```
+
+Set selected Printer
 -
-To make a connection with a device which can be used for printing later:
+To select a device which can be used for printing later:
+
+**_NOTE:_** selection will succeed even if stored printer not available
 
 * In your website, call `setPrinter()` function from the [SDK](setup.md#calling-a-function) with a <b>PrinterDto</b> type param:
 
@@ -95,7 +121,7 @@ PrinterDTO:
 | label | `string` |
 | value | `string` |
 
-Response will look like this:
+Successful response will look like this:
 ```json
 {
     "functionName": "SET_PRINTER",
@@ -107,6 +133,18 @@ Response will look like this:
       }
     },
     "isSuccess": true
+}
+```
+
+Response on selecting error:
+```json
+{
+    "functionName": "SET_PRINTER",
+    "result": {
+      "stored" : false,
+      "message": "NOT_FOUND"
+    },
+    "isSuccess": false
 }
 ```
 
@@ -125,6 +163,17 @@ Response will look like this:
       "leftPadding": "0"
     },
     "isSuccess": true
+}
+```
+
+Response without printer selected:
+```json
+{
+    "functionName": "GET_PRINTER_SETTINGS",
+    "result": {
+      "message": "NOT_FOUND"
+    },
+    "isSuccess": false
 }
 ```
 
@@ -150,6 +199,18 @@ Response will look like this:
       "leftPadding": "0"
     },
     "isSuccess": true
+}
+```
+
+Response without printer selected:
+```json
+{
+    "functionName": "GET_PRINTER_SETTINGS",
+    "result": {
+      "stored": false,
+      "message": "NOT_FOUND"
+    },
+    "isSuccess": false
 }
 ```
 
@@ -224,6 +285,7 @@ On successfully reading response will look like this:
     "isSuccess": true
 }
 ```
+**_NOTE:_** canceling the reading generates no response
 
 Cache clearing
 -
@@ -259,9 +321,9 @@ Response will look like this:
 }
 ```
 
-Hiding header in the App
+Showing header in the App
 -
-To hide the top header of the app:
+To show the top header of the app:
 
 * In your website, call `headerShow()` function from the [SDK](setup.md#calling-a-function)
 
