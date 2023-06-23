@@ -23,7 +23,7 @@ nav_order: 1
 - Polpos custom SDK for image printing and get status observable
 
 ## Installation
-#### (read prerequires site)
+
 Install the dependencies and devDependencies and start.
 
 ```sh
