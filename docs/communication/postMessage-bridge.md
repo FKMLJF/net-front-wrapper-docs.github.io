@@ -267,6 +267,21 @@ Response will look like this **DATECS PRINTER**:
   "isSuccess": true
 }
 ```
+
+if, it has error:
+```json
+{
+   "functionName":"PRINT_IMAGE",
+   "result":{
+      "printingTime":"628 ms",
+      "printed":false,
+      "message":{
+         "printerStatus":4
+      }
+   },
+   "isSuccess":false
+}
+```
 * The printer does not print when the red LED lights up
 
 Scanning QR Code or Barcode
