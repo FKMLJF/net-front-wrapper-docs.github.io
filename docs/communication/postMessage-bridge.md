@@ -415,10 +415,7 @@ Response if the printer NOT available:
 }
 ```
 <span style="color:green">If the printer's battery is depleted, malfunctioning, or unavailable for any reason (except in cases of paper shortage or battery charge issues), the request will time out after **10 seconds**. In this scenario, the returned response is the same as in cases of paper shortage or an open lid, but the value of message.code is consistently **-1**. 📗 </span>
-
-<span style="color:red">**POLPOS ONLY**</span>
--
-
+--
 ###### Demo site: [nfw-demo](https://nfw-demo.procats.hu)
 ###### Build: ![unnamed](https://img.shields.io/badge/4bf756f-Build-red?logo=gnuicecat)
 
