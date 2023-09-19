@@ -74,9 +74,12 @@ Website: **https://procats.hu**
 
 Email: **hello@procats.hu**
 
-[![unnamed](https://img.shields.io/badge/Version-0.0.0.3-red)](https://play.google.com/apps/test/RQCEJ0ULhB0/ahAJkB9-6XdyNkjGO1pV4GKXl7PNKdKNh0kRjEPvkvRAT5k9HPrj2IT7aGSvyh3eGtgDBWG7ga0PWaeD1wwbNcwA61)
+[![unnamed](https://img.shields.io/badge/Version-0.0.0.10-red)](https://drive.google.com/file/d/1ga3Pm6EWjZlfA_92TDVhTwVr0VdmNkuT/view?usp=sharing)
 ![unnamed](https://img.shields.io/badge/0.71-React%20Native-69b6e4?logo=react)
 ![unnamed](https://img.shields.io/badge/7.6-Gradle-21d326?logo=gradle)
 ![unnamed](https://img.shields.io/badge/4.8.4-typescript-blue?logo=typescript)
 [![unnamed](https://img.shields.io/badge/Introduction%20Video-typescript-red?logo=youtube)](https://youtu.be/2ENdklX7C6w)
+
+-
+DOWNLOAD: https://drive.google.com/file/d/1ga3Pm6EWjZlfA_92TDVhTwVr0VdmNkuT/view?usp=sharing
 
