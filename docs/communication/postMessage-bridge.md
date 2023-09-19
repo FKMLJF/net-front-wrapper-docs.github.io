@@ -416,9 +416,10 @@ Response if the printer NOT available:
 ```
 <span style="color:red">**POLPOS ONLY**</span>
 -
+
 ###### Demo site: [nfw-demo](https://nfw-demo.procats.hu)
 ###### Build: ![unnamed](https://img.shields.io/badge/4bf756f-Build-red?logo=gnuicecat)
--
+
 > **DOWNLOAD**
 >> [![unnamed](https://img.shields.io/badge/Latest-2023.09.19-purple)](https://drive.google.com/file/d/1ga3Pm6EWjZlfA_92TDVhTwVr0VdmNkuT/view?usp=sharing)
 
