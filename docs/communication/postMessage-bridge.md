@@ -423,5 +423,5 @@ Response if the printer NOT available:
 ###### Build: ![unnamed](https://img.shields.io/badge/4bf756f-Build-red?logo=gnuicecat)
 
 > **DOWNLOAD**
->> [![unnamed](https://img.shields.io/badge/Latest-2023.09.19-purple)](https://drive.google.com/file/d/1A97rfj0LhVzVYuU3E6ElBiLYMlzwZam7/view?usp=sharing)
+>> [![unnamed](https://drive.google.com/file/d/1GChcd6_nQVMJ8hOxLREpzhn4Sc3FhIgP/view?usp=drive_link)
 
