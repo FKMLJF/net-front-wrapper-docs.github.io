@@ -352,3 +352,66 @@ Response will look like this:
     "isSuccess": true
 }
 ```
+
+POLPOS avaiable test
+-
+call
+```javascript
+export function polposTest() {
+    const data = {
+        command: 'POLPOS_TEST',
+    };
+    window?.ReactNativeWebView?.postMessage(JSON.stringify(data));
+}
+```
+
+Response if avaiable:
+```json
+{
+  "functionName": "POLPOS_TEST",
+  "result": {
+    "printerReady": true,
+    "message": [
+      {
+        "code": "12"
+      },
+      {
+        "code": "12"
+      },
+      {
+        "code": "12"
+      },
+      {
+        "code": "12"
+      }
+    ]
+  },
+  "isSuccess": true
+}
+```
+
+Response if NOT avaiable:
+```json
+{
+  "functionName": "POLPOS_TEST",
+  "result": {
+    "printerReady": false,
+    "message": [
+      {
+        "code": "-1"
+      },
+      {
+        "code": "-1"
+      },
+      {
+        "code": "-1"
+      },
+      {
+        "code": "-1"
+      }
+    ]
+  },
+  "isSuccess": true
+}
+```
+
