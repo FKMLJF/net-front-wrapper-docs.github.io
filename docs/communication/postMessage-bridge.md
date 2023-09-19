@@ -353,7 +353,7 @@ Response will look like this:
 }
 ```
 
-POLPOS avaiable test
+POLPOS available test
 -
 call
 ```javascript
