@@ -423,5 +423,5 @@ Response if the printer NOT available:
 ###### Build: ![unnamed](https://img.shields.io/badge/4bf756f-Build-red?logo=gnuicecat)
 
 > **DOWNLOAD**
->> [![unnamed](https://drive.google.com/file/d/1GChcd6_nQVMJ8hOxLREpzhn4Sc3FhIgP/view?usp=drive_link)
+>> [12.apk](https://drive.google.com/file/d/1GChcd6_nQVMJ8hOxLREpzhn4Sc3FhIgP/view?usp=drive_link)
 
