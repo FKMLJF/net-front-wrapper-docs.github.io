@@ -74,7 +74,7 @@ Website: **https://procats.hu**
 
 Email: **hello@procats.hu**
 
-[![unnamed](https://img.shields.io/badge/Version-0.0.0.10-red)](https://drive.google.com/file/d/1ga3Pm6EWjZlfA_92TDVhTwVr0VdmNkuT/view?usp=sharing)
+[![unnamed](https://img.shields.io/badge/Version-0.0.0.10-red)](https://drive.google.com/file/d/1GChcd6_nQVMJ8hOxLREpzhn4Sc3FhIgP/view?usp=drive_link)
 ![unnamed](https://img.shields.io/badge/0.71-React%20Native-69b6e4?logo=react)
 ![unnamed](https://img.shields.io/badge/7.6-Gradle-21d326?logo=gradle)
 ![unnamed](https://img.shields.io/badge/4.8.4-typescript-blue?logo=typescript)
