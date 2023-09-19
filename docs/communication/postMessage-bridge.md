@@ -365,7 +365,7 @@ export function polposTest() {
 }
 ```
 
-Response if avaiable:
+Response if the printer available:
 ```json
 {
   "functionName": "POLPOS_TEST",
@@ -390,7 +390,7 @@ Response if avaiable:
 }
 ```
 
-Response if NOT avaiable:
+Response if the printer NOT available:
 ```json
 {
   "functionName": "POLPOS_TEST",
@@ -414,4 +414,8 @@ Response if NOT avaiable:
   "isSuccess": true
 }
 ```
+<span style="color:red">**POLPOS ONLY**</span>
+
+-
+Demo site: https://nfw-demo.procats.hu/
 
