@@ -414,6 +414,8 @@ Response if the printer NOT available:
   "isSuccess": true
 }
 ```
+<span style="color:red">If the printer's battery is depleted, malfunctioning, or unavailable for any reason (except in cases of paper shortage or battery charge issues), the request will time out after **10 seconds**. In this scenario, the returned response is the same as in cases of paper shortage or an open lid, but the value of message.code is consistently **-1**.</span>
+
 <span style="color:red">**POLPOS ONLY**</span>
 -
 
