@@ -11,4 +11,4 @@ This part of the documentation explains how to establish communication between t
 * For the list of all available functions visit [Available Functions](postMessage-bridge.md)
 
 
-## Download latest version: [![unnamed](https://img.shields.io/badge/Version-0.0.0.3-4B0082?logo=android)](https://play.google.com/apps/test/RQCEJ0ULhB0/ahAJkB9-6XdyNkjGO1pV4GKXl7PNKdKNh0kRjEPvkvRAT5k9HPrj2IT7aGSvyh3eGtgDBWG7ga0PWaeD1wwbNcwA61)
+## Download latest version: [![unnamed](https://img.shields.io/badge/Version-0.1.59-4B0082?logo=android)](https://drive.google.com/file/d/12Q7PwpfIBXH0XuVleceBe-1uUQ2TFIFh/view?usp=sharing)
