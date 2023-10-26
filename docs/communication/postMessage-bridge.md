@@ -496,6 +496,9 @@ If **isOk** not **true**, then there is something wrong.
 
 
 ###### Demo site: [nfw-demo](https://nfw-demo.procats.hu)
+[![unnamed](https://github.com/FKMLJF/net-front-wrapper-docs.github.io/assets/24462886/a8c85fce-520d-4400-9656-9fe6ca52051a)](https://nfw-demo.procats.hu)
+
+
 ###### Build: ![unnamed](https://img.shields.io/badge/4bf756f-Build-red?logo=gnuicecat)
 
 > **DOWNLOAD**
