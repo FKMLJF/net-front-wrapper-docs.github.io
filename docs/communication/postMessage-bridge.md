@@ -353,7 +353,7 @@ Response will look like this:
 }
 ```
 
-POLPOS available test
+POLPOS available test (Not recommended, due to extra load)
 -
 call
 ```javascript
@@ -415,10 +415,89 @@ Response if the printer NOT available:
 }
 ```
 <span style="color:green">If the printer's battery is depleted, malfunctioning, or unavailable for any reason (except in cases of paper shortage or battery charge issues), the request will time out after **10 seconds**. In this scenario, the returned response is the same as in cases of paper shortage or an open lid, but the value of message.code is consistently **-1**. 📗 </span>
---
+
+
+POLPOS out of paper
+-
+call
+```javascript
+export function polPosOutPaper() {
+    const data = {
+        command: 'POLPOS_OUT_OF_PAPER',
+    };
+    window?.ReactNativeWebView?.postMessage(JSON.stringify(data));
+}
+```
+
+Response if the printer available:
+```json
+{
+  "functionName": "POLPOS_OUT_OF_PAPER",
+  "result": {
+    "isOk": true,
+    "command": "POLPOS_OUT_OF_PAPER"
+  },
+  "isSuccess": true
+}
+```
+If **isOk** not **true**, then there is something wrong.
+
+POLPOS other error
+-
+
+call
+```javascript
+export function polPosOtherError() {
+    const data = {
+        command: 'POLPOS_OTHER_ERROR',
+    };
+    window?.ReactNativeWebView?.postMessage(JSON.stringify(data));
+}
+```
+
+Response if the printer available:
+```json
+{
+  "functionName": "POLPOS_OTHER_ERROR",
+  "result": {
+    "isOk": true,
+    "command": "POLPOS_OTHER_ERROR"
+  },
+  "isSuccess": true
+}
+```
+If **isOk** not **true**, then there is something wrong.
+
+POLPOS open cover
+-
+
+call
+```javascript
+export function polPosOpenCover() {
+    const data = {
+        command: 'POLPOS_OPEN_COVER',
+    };
+    window?.ReactNativeWebView?.postMessage(JSON.stringify(data));
+}
+```
+
+Response if the printer available:
+```json
+{
+  "functionName": "POLPOS_OPEN_COVER",
+  "result": {
+    "isOk": true,
+    "command": "POLPOS_OPEN_COVER"
+  },
+  "isSuccess": true
+}
+```
+If **isOk** not **true**, then there is something wrong.
+
+
 ###### Demo site: [nfw-demo](https://nfw-demo.procats.hu)
 ###### Build: ![unnamed](https://img.shields.io/badge/4bf756f-Build-red?logo=gnuicecat)
 
 > **DOWNLOAD**
->> [12.apk](https://drive.google.com/file/d/1GChcd6_nQVMJ8hOxLREpzhn4Sc3FhIgP/view?usp=drive_link)
+>> [![unnamed](https://img.shields.io/badge/Latest-0.1.59-purple)](https://drive.google.com/file/d/12Q7PwpfIBXH0XuVleceBe-1uUQ2TFIFh/view?usp=sharing)
 
